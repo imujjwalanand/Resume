@@ -1,0 +1,46 @@
+
+\documentclass[11pt, a4paper]{awesome-cv}
+\fontdir[fonts/]
+\newcommand*{\sectiondir}{resume/}
+
+
+\colorlet{awesome}{awesome-darknight}
+\usepackage{import}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Personal Data
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Essentials
+\name{Ujjwal}{Anand}
+\address{Indian Institute of Technology, Jodhpur}
+\mobile{(+91) 8789796535} 
+%%% Social
+\email{imujjwalanand@gmail.com}
+\homepage{home.iitj.ac.in/~ug201314018}
+\linkedin{imujjwalanand}
+%%% Optionals
+\position{Undergraduate{\enskip\cdotp\enskip}Specialization in Computer Science \& Engineering}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Make a footer for CV with three arguments(<left>, <center>, <right>)
+\makecvfooter
+  {Ujjwal Anand}
+  {\thepage}
+
+\begin{document}
+%%% Make a header for CV with personal data
+\makecvheader
+%%% Import contents
+\import{\sectiondir}{Education.tex}
+\import{\sectiondir}{Experience.tex}
+\import{\sectiondir}{Projects.tex}
+\import{\sectiondir}{Achievements.tex}
+\import{\sectiondir}{POR.tex}
+\import{\sectiondir}{Courses.tex}
+
+
+\end{document}
